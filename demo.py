@@ -1,6 +1,7 @@
-print("Hello  alan Dinessh")
+#LAMBDA 
 
-for i in range(5):
-    print(i)
+sq = lambda x : x**2
+sq(2)
 
-print("dinesh alan ")
+cube = lambda y : y**3
+cube(2)
