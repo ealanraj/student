@@ -39,3 +39,22 @@ h()
 print('global : ', a)
 
 print("end")
+
+#Map Filter Reduce
+#Syntax: 
+#    map (function, iterable/sequence)
+#    filter (function, iterable/sequence)
+# from functools import reduce
+#    Reduce (function, iterable/sequence)
+
+l = [1,2,3,4]
+
+sq = lambda x : x**2
+print(list(map(sq, l)))
+
+evenOdd = lambda x : x%2==0
+print(list(filter(evenOdd, l)))
+
+from functools import reduce
+add = lambda x,y : x+y
+print((reduce(add,l)))
