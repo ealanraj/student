@@ -37,3 +37,5 @@ g()
 print('global : ', a)
 h()
 print('global : ', a)
+
+print("end")
